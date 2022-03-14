@@ -11,21 +11,21 @@ namespace _0314
             int str_num = Int32.Parse(str);
             if (str_num % 2 != 0)
             {
-                Console.WriteLine(str_num+"is weird");
+                Console.WriteLine(str_num + "is weird");
             }
             else if (str_num % 2 == 0)
             {
                 if (2 <= str_num && str_num <= 5)
                 {
-                    Console.WriteLine(str_num+"is not weird");
+                    Console.WriteLine(str_num + "is not weird");
                 }
                 else if (6 <= str_num && str_num <= 20)
                 {
-                    Console.WriteLine(str_num+"is weird");
+                    Console.WriteLine(str_num + "is weird");
                 }
                 else
                 {
-                    Console.WriteLine(str_num+"is not weird");
+                    Console.WriteLine(str_num + "is not weird");
                 }
             }
         }
