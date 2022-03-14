@@ -26,6 +26,7 @@ namespace _0314
                 else
                 {
                     Console.WriteLine(str_num+"is not weird");
+                    Console.WriteLine(str_num + "is not weird");
                 }
             }
         }
