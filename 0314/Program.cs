@@ -80,8 +80,6 @@ namespace _0314
                 Console.WriteLine();
             }
             Console.WriteLine();
-
-            
         }
     }
 }
